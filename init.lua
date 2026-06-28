@@ -12,10 +12,16 @@ vim.opt.sidescrolloff = 10 -- lock 10 lines left/rigth the cursor
 -- Tabs
 vim.opt.tabstop = 2
 vim.opt.softtabstop = 2
-vim.opt.shiftwidth = 2 -- This and 2 settings above set the tab length to 2 basicly
+vim.opt.shiftwidth = 2 -- this and 2 settings above set the tab length to 2 basicly
 vim.opt.expandtab = true -- use sapces instead of tabs
 vim.opt.smartindent = true -- enable smart auto-indent
 vim.opt.autoindent = true -- copy indent from the current line
+
+-- Search
+vim.opt.ignorecase = true -- enable caseinsenstive search
+vim.opt.smartcase = true -- case senstive if uppercase in string
+vim.opt.hlsearch = true -- highlight search maches
+vim.opt.incsearch = true -- show matches as you type
 
 -- Theme
 vim.opt.termguicolors = true -- Adds full color support
